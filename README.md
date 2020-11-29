@@ -94,15 +94,30 @@ Jupyter Notebook
 - 최고기온
 - 생산량
 
-##2. Prophet분석
+## 2. Prophet분석
 
 > 사과 🍎
 
+<img src="https://github.com/sesame86/agricultural_products_price_forecast/blob/main/image/apple_prophet.png?raw=true" width="50%"/>
+
+- 사과는 2012년에 가격이 가장 높았고, 1년중 10월에 가격이 가장 높은 것을 알 수 있습니다.
+- 사과의 가격이 2012년에 가장 높았던 이유는 장기저장에 영향으로 출하량은 꾸준히 감소하고 있으나, 제수용품 등의 소비는 일정하여 오름세를 보였기 때문이라고 kamis의 정보를 이용하여 추측해볼 수 있습니다.
+- 1년중 10월에 가장 가격이 높은 이유는 추석 성수기를 맞아 출하량이 늘었기 때문으로 추측해볼 수 있습니다. Weekly에서 토요일과 일요일의 가격이 낮은것은 가격이 낮은게 아니라 토요일과 일요일은 거래를 하지 않는 날이기 때문입니다.
+
+
 > 양파 🧅
+
+<img src="https://github.com/sesame86/agricultural_products_price_forecast/blob/main/image/onion_prophet.png?raw=true" width="50%"/>
+
+- 양파의 가격은 연도마다 변동이 컸고, 1년중에는 상반기에 가격이 더 높은 것을 알 수 있습니다.
+- 양파의 가격이 상반기에 더 높은 이유는 양파의 수확기가 6,7월 달이기 때문에 산지 저장 양파의 보관물량이 감소하는 가운데 장기보관에 따른 상승과 산지 출하량 조절로 오름세로 거래된다고 카미스의 정보를 이용하여 추측해 볼 수있습니다.
+
 
 > 대파 🥬
 
-##3. LSTM분석
+<img src="" width="50%"/>
+
+## 3. LSTM분석
 
 > 사과 🍎
 
@@ -116,14 +131,10 @@ Jupyter Notebook
 ![onion_lstm](/image/onion_lstm.PNG)
 <img src="https://github.com/sesame86/agricultural_products_price_forecast/blob/main/image/onion_score.png?raw=true" width="30%"/>
 
-시각화해서 확인해보면 예측이 뒷부분으로 갈수록 어긋나는 부분이 있지만 나머지 부분에서는 가격의 트렌드를 따라가는 것을 확인할 수 있습니다.
+시각화해서 확인해보면 예측이 어느 한 부분에서 좀 잘못된게 있지만 나머지 부분에서는 가격의 트렌드를 따라가는 것을 확인할 수 있습니다.
 
 > 대파 🥬
 
 ![greenonion_lstm](/image/greenonion_lstm.PNG)
 ![greenonion_score](/image/greenonion_score.png)
 
-## 핵심 기능
-- 농산물은 통제 불가능한 기상 여건에 따라 생산량의 편차가 큰 수준이기 때문에 날씨와 생산량의 상관관계를 통해 농산물에 중요한 날씨 변수가 무엇인지 확인할 수 있습니다.
-
-- 생산량, 공급량, 수출수입, 소비자 물가, 유통비용 데이터들과 가격의 상관관계를 통해 농산물 가격에 영향을 미치는 변수를 선택할 수 있습니다.
