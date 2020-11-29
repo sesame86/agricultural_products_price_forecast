@@ -39,36 +39,39 @@ Jupyter Notebook
 
 ![cor_plot](/image/output_temp.PNG)
 
-> 사과
+> 사과 🍎
 
 ![cor_plot](/image/apple_cor_plot.PNG)
 
 
-> 양파
+> 양파 🧅
 
 ![cor_plot](/image/onion_cor_plot.PNG)
 
 
-> 대파
+> 대파 🥬
 
 ![cor_plot](/image/greenonion_cor_plot.PNG)
 
 ## 분석 이용 데이터
 
-> 사과
+> 사과 🍎
+
 - 최저기온
 - 평균기온
 - 최고기온
 - 유통비용
 - 생산량
 
-> 양파
+> 양파 🧅
+
 - 유통비용
 - 수입(중량)
 - 수입(금액)
 - 생산량
 
-> 대파
+> 대파 🥬
+
 - 평균기온
 - 최저기온
 - 최고기온
