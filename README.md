@@ -110,12 +110,15 @@ Jupyter Notebook
 <img src="https://github.com/sesame86/agricultural_products_price_forecast/blob/main/image/onion_prophet.png?raw=true" width="50%"/>
 
 - 양파의 가격은 연도마다 변동이 컸고, 1년중에는 상반기에 가격이 더 높은 것을 알 수 있습니다.
-- 양파의 가격이 상반기에 더 높은 이유는 양파의 수확기가 6,7월 달이기 때문에 산지 저장 양파의 보관물량이 감소하는 가운데 장기보관에 따른 상승과 산지 출하량 조절로 오름세로 거래된다고 카미스의 정보를 이용하여 추측해 볼 수있습니다.
+- 양파의 가격이 상반기에 더 높은 이유는 양파의 수확기가 6,7월 달이기 때문에 산지 저장 양파의 보관물량이 감소하는 가운데 장기보관에 따른 상승과 산지 출하량 조절로 오름세로 거래된다고 kamis의 정보를 이용하여 추측해 볼 수있습니다.
 
 
 > 대파 🥬
 
-<img src="" width="50%"/>
+<img src="https://github.com/sesame86/agricultural_products_price_forecast/blob/main/image/greenonion_prophet.png?raw=true" width="50%"/>
+
+- 대파의 가격은 연도마다 변동이 컸고, 1년중 10월달에 가장 가격이 높은 것을 알 수 있습니다.
+- 대파의 가격이 10월달에 높은 이유는 상품성이 좋은 강원지역의 고랭지 대파가 본격적으로 출하되고 있는 가운데, 고온 및 잦은 비로 인해 출하물량이 감소하여 오름세를 형성한 것을 kamis의 정보를 이용하여 추측해 볼 수 있습니다.
 
 ## 3. LSTM분석
 
