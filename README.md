@@ -104,19 +104,20 @@ Jupyter Notebook
 > 사과 🍎
 
 ![apple_lstm](/image/apple_lstm.PNG)
-![apple_score](/image/apple_score.PNG)
+<img src="https://github.com/sesame86/agricultural_products_price_forecast/blob/main/image/apple_score.png?raw=true" width="30%"/>
 시각화해서 확인해보면 예측이 뒷부분으로 갈수록 어긋나는 부분이 있지만 나머지 부분에서는 가격의 트렌드를 따라가는 것을 확인할 수 있습니다.
 
 > 양파 🧅
 
 ![onion_lstm](/image/onion_lstm.PNG)
-![onion_score](/image/onion_score.PNG)
+<img src="https://github.com/sesame86/agricultural_products_price_forecast/blob/main/image/onion_score.png?raw=true" width="30%"/>
+
 시각화해서 확인해보면 예측이 뒷부분으로 갈수록 어긋나는 부분이 있지만 나머지 부분에서는 가격의 트렌드를 따라가는 것을 확인할 수 있습니다.
 
 > 대파 🥬
 
 ![greenonion_lstm](/image/greenonion_lstm.PNG)
-![greenonion_score](/image/greenonion_score.PNG)
+![greenonion_score](/image/greenonion_score.png)
 
 ## 핵심 기능
 - 농산물은 통제 불가능한 기상 여건에 따라 생산량의 편차가 큰 수준이기 때문에 날씨와 생산량의 상관관계를 통해 농산물에 중요한 날씨 변수가 무엇인지 확인할 수 있습니다.
