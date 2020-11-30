@@ -148,7 +148,7 @@ epoch 마다 validation loss가 감소하는 것을 확인할 수 있는데, 이
 > 대파 🥬
 
 ![greenonion_lstm](/image/greenonion_lstm.PNG)
-![greenonion_score](/image/greenonion_score.png)
+![greenonion_score](/image/greenonion_score.PNG)
 
 시각화해서 확인해보면 예측이 사과의 가격 예측 처럼 200일부터 시간이 지날수록 어긋나고 있지만, 나머지 부분에서는 가격의 트렌드를 따라가는 것을 확인할 수 있습니다.
 
